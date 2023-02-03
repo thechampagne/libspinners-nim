@@ -17,7 +17,7 @@ import std/os
 import spinners
 
 when isMainModule:
-  var spin = new(Spinners.Dots9, "Waiting for 3 seconds")
+  var spin = spinners.new(Spinners.Dots9, "Waiting for 3 seconds")
   sleep(3000)
   spin.stop()
 ```
